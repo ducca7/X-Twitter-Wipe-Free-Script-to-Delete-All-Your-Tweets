@@ -1,5 +1,5 @@
 # X-Twitter-Wipe-Free-Script-to-Delete-All-Your-Tweets
-Seeking a clean slate or enhanced privacy? I got you fam! Effortlessly remove all your tweets from X (formerly Twitter) with this free, open-source script. No paid services, no API keys required—just run the script in your browser console that wipes your entire tweet history. 
+Seeking a clean slate or enhanced privacy? I got you fam! Easily remove all your tweets from X (formerly Twitter) with this free, open-source script. No paid services, no API keys required—just run the script in your browser console and wipe your entire tweet history. 
 
 1. Log into your (X) Twitter account on desktop (tested in Firefox and Chrome)
 2. Go to your X profile with replies (https://x.com/YOURUSERNAME/with_replies)
@@ -11,7 +11,8 @@ Seeking a clean slate or enhanced privacy? I got you fam! Effortlessly remove al
 8. Enjoy life!
 
 
-```const deleteAllTweets = async () => {
+```
+const deleteAllTweets = async () => {
   const processed = new Set();
   const stats = { deleted: 0, failed: 0, retries: 0 };
   
